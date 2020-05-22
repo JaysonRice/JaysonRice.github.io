@@ -10,6 +10,8 @@
 	<title>Jayson Rice is a software developer from Nashville, TN</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
@@ -34,14 +36,14 @@
 		</nav>
 		<footer>
 			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="https://github.com/JaysonRice" class="icon brands fa-github"><span
+				<li><a href="https://www.linkedin.com/in/jaysonrice/" target="_blank"
+						class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+				<li><a href="https://github.com/JaysonRice" target="_blank" class="icon brands fa-github"><span
 							class="label">Github</span></a></li>
-				<li><a href="jayson.rice.95@gmail.com" class="icon solid fa-envelope"><span
+				<li><a href="mailto:jayson.rice.95@gmail.com" class="icon solid fa-envelope"><span
 							class="label">Email</span></a></li>
 			</ul>
+
 		</footer>
 	</section>
 
@@ -84,17 +86,32 @@
 					<p>Click a picture to take you to the project repositiry.</p>
 					<div class="features">
 						<article>
-							<a href="https://github.com/JaysonRice/pets-please" target="_blank" class="image"><img
-									src="images/Pets Please.png" alt="Pets please dashboard view" /></a>
+							<a href="https://github.com/JaysonRice/pets-please" target="_blank" id="button--petsplease"
+								class="image dialog--button"><img src="images/Pets Please.png"
+									alt="Pets please thumbnail" /></a>
 							<div class="inner">
 								<h4>Pets Please - HTML, CSS, JS, React.js</h4>
-								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus
-									integer adipiscing ornare amet.</p>
+								<ul>
+									<li>Front end capstone at NSS; I made a site where users can share pictures of their
+										pets
+									</li>
+									<li>Required to have unique experience for every user, full CRUD funtionality, and
+										built using React hooks
+									</li>
+								</ul>
+
+								<button type="button" id="button--petsplease"
+									class="dialog--button btn btn-outline-secondary">Learn
+									More</button>
+								<dialog class="dialog--petsplease" id="details--petsplease">
+									<div class="dialog--text">Info about pets please here.</div>
+									<button class="button--close">Close Dialog</button>
+								</dialog>
 							</div>
 						</article>
 						<article>
 							<a href="https://github.com/nss-day-cohort-39/nutshell-veridian-vicuna" target="_blank"
-								class="image"><img src="images/Nutshell.png" alt="" /></a>
+								class="image"><img src="images/Nutshell.png" alt="Nutshell thumbnail" /></a>
 							<div class="inner">
 								<h4>Nutshell - HTML, CSS, JS</h4>
 								<ul>
@@ -105,11 +122,22 @@
 										depending on
 										user relationships</li>
 								</ul>
+
+								<button type="button" id="button--nutshell"
+									class="dialog--button btn btn-outline-secondary">Learn
+									More</button>
+								<dialog class="dialog--nutshell" id="details--nutshell">
+									<div class="dialog--text">Info about nutshell here.</div>
+									<button class="button--close">Close Dialog</button>
+								</dialog>
 							</div>
 						</article>
 						<article>
+
 							<a href="https://github.com/nss-day-cohort-39/holiday-road-black-hole-badgers"
-								target="_blank" class="image"><img src="images/Holiday Road.png" alt="" /></a>
+								target="_blank" id="button--holidayroad" class="image"><img
+									src="images/Holiday Road.png" alt="Holiday road thumbnail" /></a>
+
 							<div class="inner">
 								<h4>Holiday Road - HTML, CSS, JS</h4>
 								<ul>
@@ -119,11 +147,22 @@
 									<li>Responsible for implementing external OpenWeather API for showing 5 day forecast
 										of the selected park</li>
 								</ul>
+
+								<button type="button" id="button--holidayroad"
+									class="dialog--button btn btn-outline-secondary">Learn
+									More</button>
+								<dialog class="dialog--holidayroad" id="details--holidayroad">
+									<div class="dialog--text">Info about holiday road here.</div>
+									<button class="button--close">Close Dialog</button>
+								</dialog>
+
 							</div>
+
 						</article>
 					</div>
 				</div>
 			</section>
+
 
 			<!-- Three -->
 
