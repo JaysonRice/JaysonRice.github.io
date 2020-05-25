@@ -29,21 +29,14 @@ video{
 
 @media (max-width: 1200px) {
     video {
-        width: 540px;
-        height: auto;
-    }
-}
-
-@media (max-width: 970px) {
-    video {
-        width: 360px;
+        width: 426px;
         height: auto;
     }
 }
 
 @media (max-width: 700px) {
     video {
-        width: 240px;
+        width: 360px;
         height: auto;
     }
 }

@@ -100,44 +100,67 @@
 									</li>
 								</ul>
 
-								<button type="button" id="button--petsplease"
-									class="dialog--button btn btn-outline-secondary">Learn
+								<button type="button" data-toggle="modal" data-target="#petsModal"
+									class="btn btn-outline-secondary btn-lg" id="myBtn">Learn
 									More</button>
-								<dialog class="dialog--project dialog--petsplease" id="details--petsplease">
-									<button class="button--close x-btn btn btn-light">
-										x</button>
-									<div class="videoContainer">
-										<video width="640" height="360" autoplay controls>
-											<source src="images/petsVideo.mp4" type="video/mp4"> </video>
+
+								<!-- Modal -->
+								<div class="modal fade" id="petsModal" role="dialog">
+									<div class="modal-dialog">
+
+										<!-- Modal content-->
+										<div class="modal-content">
+											<div class="modal-header">
+												<H2 class="modalTitle">Pets Please</H2>
+												<button type="button" class="close"
+													data-dismiss="modal">&times;</button>
+											</div>
+											<div class="modal-body">
+												<div class="videoContainer">
+													<video width="426" height="240" autoplay controls>
+														<source src="images/petsVideo.mp4" type="video/mp4"> </video>
+
+												</div>
+												<div class="modalHeader">
+													<a href="https://github.com/JaysonRice/pets-please" target="_blank"
+														class="btn button btn-block">View the Code</a>
+
+												</div>
+												<div>
+													<p>I was tired of seeing social media posts by family and friends
+														that were
+														outrageous and dumb. Pet's Please is a single page application
+														that allows
+														users
+														to save pictures of their pets to view on a main social media
+														feed. Users
+														can
+														follow other users to see their pet pictures as well. You can
+														tailor your
+														experience by following good pet photographers and using the
+														ability to
+														filter
+														by animal type. It makes for a great stress free social media
+														app!</p>
+													<ul>
+														<li>Front end capstone project built in React using JSON server
+															to store
+															user
+															and pet information</li>
+														<li>Full CRUD functionality allows users to maintain pet info
+														</li>
+														<li>Photos stored using Cloudinary's image services</li>
+													</ul>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default"
+													data-dismiss="modal">Close</button>
+											</div>
+										</div>
 
 									</div>
-									<div class="modalHeader">
-										<H2 class="modalTitle">Pets Please</H2>
-										<a href="https://github.com/JaysonRice/pets-please" target="_blank"
-											class="btn button">View the Code</a>
-
-									</div>
-									<div>
-										<p>I was tired of seeing social media posts by family and friends that were
-											outrageous and dumb. Pet's Please is a single page application that allows
-											users
-											to save pictures of their pets to view on a main social media feed. Users
-											can
-											follow other users to see their pet pictures as well. You can tailor your
-											experience by following good pet photographers and using the ability to
-											filter
-											by animal type. It makes for a great stress free social media app!</p>
-										<ul>
-											<li>Front end capstone project built in React using JSON server to store
-												user
-												and pet information</li>
-											<li>Full CRUD functionality allows users to maintain pet info</li>
-											<li>Photos stored using Cloudinary's image services</li>
-										</ul>
-									</div>
-									<button class="button--close btn btn-outline-secondary btn-block">Close
-										Dialog</button>
-								</dialog>
+								</div>
 							</div>
 						</article>
 
@@ -155,36 +178,52 @@
 										user relationships</li>
 								</ul>
 
-								<button type="button" id="button--nutshell"
-									class="dialog--button btn btn-outline-secondary">Learn
-									More</button>
-								<dialog class="dialog--project dialog--nutshell" id="details--nutshell">
-									<button class="button--close x-btn btn btn-light">
-										x</button>
-									<div class="videoContainer">
-										<video width="640" height="360" autoplay controls>
-											<source src="images/nutshellVideo.mp4" type="video/mp4"> </video>
+								<button type="button" data-toggle="modal" data-target="#nutshellModal"
+									class="btn btn-outline-secondary btn-lg" id="myBtn">Learn More
+								</button>
+								<div class="modal fade" id="nutshellModal" role="dialog">
+									<div class="modal-dialog">
+
+										<!-- Modal content-->
+										<div class="modal-content">
+											<div class="modal-header">
+												<H2 class="modalTitle">Nutshell</H2>
+												<button type="button" class="close"
+													data-dismiss="modal">&times;</button>
+											</div>
+											<div class="modal-body">
+												<div class="videoContainer">
+													<video width="426" height="240" autoplay controls>
+														<source src="images/nutshellVideo.mp4" type="video/mp4">
+													</video>
+												</div>
+												<div class="modalHeader">
+													<a href="https://github.com/nss-day-cohort-39/nutshell-veridian-vicuna"
+														target="_blank" class="btn button btn-block">View the Code</a>
+												</div>
+												<div>
+													<p>Nutshell was a made up product our remote team was tasked with
+														building in 4 days. It's a
+														dashboard for people to use to organize their daily tasks,
+														events, news
+														articles,
+														friends, and chat messages. We focused on implementing JSON
+														server, CRUD
+														functionality, event listeners and proper use of Github in a
+														remote setting.
+														<br>
+														This was our last front end project before learning React.js.
+													</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default"
+														data-dismiss="modal">Close</button>
+												</div>
+											</div>
+
+										</div>
 									</div>
-									<div class="modalHeader">
-										<H2 class="modalTitle">Nutshell</H2>
-										<a href="https://github.com/nss-day-cohort-39/nutshell-veridian-vicuna"
-											target="_blank" class="btn button">View the Code</a>
-									</div>
-									<div>
-										<p>Nutshell was a made up product our remote team was tasked with
-											building in 4 days. It's a
-											dashboard for people to use to organize their daily tasks, events, news
-											articles,
-											friends, and chat messages. We focused on implementing JSON server, CRUD
-											functionality, event listeners and proper use of Github in a remote setting.
-											<br>
-											This was our last front end project before learning React.js.
-										</p>
-									</div>
-									<button class="button--close btn btn-outline-secondary btn-block">Close
-										Dialog</button>
-								</dialog>
-							</div>
+								</div>
 						</article>
 
 					</div>
@@ -244,6 +283,13 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script type="module" src="assets/js/main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"></script>
+
 
 </body>
 
