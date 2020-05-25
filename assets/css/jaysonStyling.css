@@ -1,3 +1,46 @@
+/* Projects */
+.modalHeader{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dialog--project{
+    width: 60%;
+
+}
+
+.videoContainer{
+    text-align: center;
+}
+
+video{
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    video {
+        width: 540px;
+        height: auto;
+    }
+}
+
+@media (max-width: 970px) {
+    video {
+        width: 360px;
+        height: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    video {
+        width: 240px;
+        height: auto;
+    }
+}
+
+
+
+/* Technologies */
 .technologiesContainer {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +79,7 @@
 .technology__name {
     margin-bottom: 0rem;
 }
-
+/* Contact */
 .contactInfo{
     font-family: "Lato", sans-serif
 }
