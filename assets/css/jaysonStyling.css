@@ -9,6 +9,10 @@
 
 }
 
+.x-btn{
+    float: right;
+}
+
 .videoContainer{
     text-align: center;
 }
