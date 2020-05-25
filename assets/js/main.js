@@ -1,4 +1,6 @@
 import TechnologyList from "./technologies/TechnologyList.js";
+import initializeDetailButtonEvents from "./dialog.js";
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -159,3 +161,4 @@ import TechnologyList from "./technologies/TechnologyList.js";
 
 })(jQuery);
 TechnologyList()
+initializeDetailButtonEvents()
