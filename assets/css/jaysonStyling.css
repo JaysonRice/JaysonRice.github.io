@@ -6,11 +6,17 @@
 
 .dialog--project{
     width: 60%;
-
+    border-radius: 1rem;
+    border: 4px solid #4acaa8;
+    transition: ease-in;
 }
 
 .x-btn{
     float: right;
+}
+
+.modalTitle{
+    color: #4acaa8;
 }
 
 .videoContainer{
