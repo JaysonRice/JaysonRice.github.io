@@ -2,6 +2,7 @@
 .modalHeader{
     display: flex;
     justify-content: space-around;
+    margin: 0.5rem 0rem;
 }
 
 .dialog--project{
