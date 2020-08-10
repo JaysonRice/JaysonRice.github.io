@@ -62,6 +62,22 @@ const technologyCollection = [
     {
         name: "Adobe Illustrator",
         link: "images/technologies/illustrator.jpg"
+    },
+    {
+        name: "JSON",
+        link: "images/technologies/JSON.png"
+    },
+    {
+        name: "SQL Server",
+        link: "images/technologies/SQL Server.png"
+    },
+    {
+        name: ".NET MVC",
+        link: "images/technologies/.NET MVC.jpg"
+    },
+    {
+        name: "ASP.NET Core",
+        link: "images/technologies/ASP.NET Core.png"
     }
 ]
 
