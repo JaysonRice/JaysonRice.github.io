@@ -78,6 +78,10 @@ const technologyCollection = [
     {
         name: "ASP.NET Core",
         link: "images/technologies/ASP.NET Core.png"
+    },
+    {
+        name: "PostgreSQL",
+        link: "images/technologies/PostgreSQL.png"
     }
 ]
 
