@@ -73,7 +73,7 @@ const technologyCollection = [
     },
     {
         name: ".NET MVC",
-        link: "images/technologies/.NET MVC.jpg"
+        link: "images/technologies/dotnetMVC.jpg"
     },
     {
         name: "ASP.NET Core",
@@ -82,8 +82,14 @@ const technologyCollection = [
     {
         name: "PostgreSQL",
         link: "images/technologies/PostgreSQL.png"
+    },
+    {
+        name: "Semantic UI React",
+        link: "images/technologies/Semantic UI React.png"
     }
 ]
+
+
 
 export const useTechnologies = () => {
     return technologyCollection.slice()
