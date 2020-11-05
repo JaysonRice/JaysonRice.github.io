@@ -6,9 +6,7 @@
 }
 
 .modal-content{
-    margin: 0 auto;
-    margin-top: 3rem;
-    width: 90%;
+    margin: 3rem auto;
     align-self: center;
 }
 
@@ -32,23 +30,8 @@
 }
 
 video{
-    margin: 0 auto;
+    width: 100%;
 }
-
-@media (max-width: 1200px) {
-    video {
-        width: 426px;
-        height: auto;
-    }
-}
-
-@media (max-width: 700px) {
-    video {
-        width: 360px;
-        height: auto;
-    }
-}
-
 
 
 /* Technologies */
