@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Jayson Rice is a software developer from Nashville, TN</title>
+	<title>Jayson Rice is a full-stack software developer in Johnson City, TN</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -22,7 +22,7 @@
 		<header>
 			<span class="image avatar"><img src="images/avatar.jpg" alt="Jayson's profile picture" /></span>
 			<h1 id="logo"><a href="#">Jayson Rice</a></h1>
-			<p>I'm a full-stack developer in Nashville, TN who loves creating art, hiking, and going to
+			<p>I'm a remote full-stack developer in Johnson City, TN who loves creating art, hiking, and going to
 				tournaments.
 			</p>
 		</header>
@@ -76,6 +76,10 @@
 						can. I started my transition to software development at Nashville Software School in 2020 and
 						haven't looked back since.</p>
 
+					<p>Since then I've spent five years as a remote developer at Sleep Solutions and Services (now part
+						of WellSky), building C# and React features for a call center platform, including a Twilio IVR
+						that handles about 64,000 patient calls a day.</p>
+
 					<p>You can download my resume
 						<a href="images/Jayson Rice Resume Software Developer.pdf" target="_blank">here</a>
 
@@ -90,6 +94,78 @@
 					<h3>Projects</h3>
 					<p>Clicking a picture will to take you to the respective project Github repository.</p>
 					<div class="features">
+						<article>
+							<a href="https://native-plant-swap-production.up.railway.app/" target="_blank"
+								class="image"><img src="images/PlantSwap.png"
+									alt="Native Plant Swap map colored by ecoregion" /></a>
+							<div class="inner">
+								<h4>Native Plant Swap - C#, .NET 10, PostgreSQL, React, TypeScript</h4>
+								<ul>
+									<li>Pick your county on a map to see your ecoregion, the native plants recorded
+										near you, and the wildlife they support</li>
+									<li>ASP.NET Core minimal APIs and EF Core on PostgreSQL, with a React + TypeScript
+										front end, deployed on Railway</li>
+								</ul>
+
+								<button type="button" data-toggle="modal" data-target="#plantSwapModal"
+									class="btn btn-outline-secondary btn-lg">Learn More
+								</button>
+								<div class="modal fade" id="plantSwapModal" role="dialog">
+									<div class="modal-dialog">
+
+										<!-- Modal content-->
+										<div class="modal-content">
+											<div class="modal-header">
+												<H2 class="modalTitle">Native Plant Swap</H2>
+												<button type="button" class="close"
+													data-dismiss="modal">&times;</button>
+											</div>
+											<div class="modal-body">
+												<div class="videoContainer">
+													<img src="images/PlantSwapPlantPage.png" width="100%"
+														alt="Plant page with a county range map and a Near you card">
+												</div>
+												<div class="modalHeader">
+													<a href="https://native-plant-swap-production.up.railway.app/"
+														target="_blank" class="btn button btn-block">Visit the
+														Deployed App</a>
+												</div>
+												<div>
+													<p>Native plants feed local wildlife, but it's hard to know
+														which ones actually belong where you live. Native Plant Swap
+														starts there: pick your county and see your ecoregion (the
+														landscape you really garden in, like the Blue Ridge), which
+														native plants are recorded around you, how close each one
+														grows, and how many caterpillar species depend on it. The
+														next phase turns it into a community where gardeners trade,
+														give away, or sell their extra plants and seed.
+													</p>
+													<ul>
+														<li>ASP.NET Core minimal APIs (.NET 10) and EF Core on
+															PostgreSQL, React + TypeScript front end with TanStack
+															Query</li>
+														<li>Interactive SVG maps built with d3-geo and d3-zoom, colored
+															by EPA ecoregion</li>
+														<li>.NET importer that turns public USDA, EPA, and Census data
+															into seed files, including a county-by-ecoregion overlay
+															computed with NetTopologySuite, bulk-loaded with Postgres
+															COPY</li>
+														<li>Built with an agentic workflow using Claude Code:
+															investigate, plan, implement, validate</li>
+													</ul>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default"
+														data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</article>
+
 						<article>
 							<a href="https://github.com/JaysonRice/pets-please" target="_blank"
 								class="image dialog--button"><img src="images/Pets Please.png"
@@ -584,9 +660,64 @@
 			<section id="technologies">
 				<div class="container">
 					<h3>Technologies</h3>
+					<h4>Core stack</h4>
 					<div class="technologiesContainer">
-
+						<div class="technology__details">
+							<p class="technology__name">C#</p>
+							<img class="technology__logo" alt="C# logo" src="images/technologies/csharp.svg">
+						</div>
+						<div class="technology__details">
+							<p class="technology__name">.NET</p>
+							<img class="technology__logo" alt=".NET logo" src="images/technologies/dotnetcore.svg">
+						</div>
+						<div class="technology__details">
+							<p class="technology__name">React</p>
+							<img class="technology__logo" alt="React logo" src="images/technologies/react.svg">
+						</div>
+						<div class="technology__details">
+							<p class="technology__name">TypeScript</p>
+							<img class="technology__logo" alt="TypeScript logo" src="images/technologies/typescript.svg">
+						</div>
+						<div class="technology__details">
+							<p class="technology__name">Twilio</p>
+							<img class="technology__logo" alt="Twilio logo" src="images/technologies/twilio.svg">
+						</div>
+						<div class="technology__details">
+							<p class="technology__name">Azure DevOps</p>
+							<img class="technology__logo" alt="Azure DevOps logo" src="images/technologies/azuredevops.svg">
+						</div>
+						<div class="technology__details">
+							<p class="technology__name">SQL Server</p>
+							<img class="technology__logo" alt="SQL Server logo"
+								src="images/technologies/microsoftsqlserver.svg">
+						</div>
+						<div class="technology__details">
+							<p class="technology__name">PostgreSQL</p>
+							<img class="technology__logo" alt="PostgreSQL logo" src="images/technologies/postgresql.svg">
+						</div>
+						<div class="technology__details">
+							<p class="technology__name">Claude Code</p>
+							<img class="technology__logo" alt="Claude logo" src="images/technologies/claude.svg">
+						</div>
 					</div>
+					<h4 class="technologies__subheading">Also used</h4>
+					<ul class="technologyTags">
+						<li>JavaScript</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Entity Framework Core</li>
+						<li>LINQ</li>
+						<li>LINQPad</li>
+						<li>Redux</li>
+						<li>Docker</li>
+						<li>Vue</li>
+						<li>Git</li>
+						<li>GitHub</li>
+						<li>Postman</li>
+						<li>ngrok</li>
+						<li>Adobe Photoshop</li>
+						<li>Adobe Illustrator</li>
+					</ul>
 				</div>
 			</section>
 
@@ -617,7 +748,7 @@
 				<section id="footer">
 					<div class="container">
 						<ul class="copyright">
-							<li>&copy; 2021 Jayson Rice</li>
+							<li>&copy; 2026 Jayson Rice</li>
 							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</div>
@@ -632,7 +763,7 @@
 		<script src="assets/js/browser.min.js"></script>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
-		<script type="module" src="assets/js/main.js"></script>
+		<script src="assets/js/main.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
 			crossorigin="anonymous"></script>

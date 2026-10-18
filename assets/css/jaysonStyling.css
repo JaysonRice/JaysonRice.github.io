@@ -68,11 +68,31 @@ video{
 
 .technology__logo {
     width: 75px;
-    height: auto;
+    height: 75px;
+    object-fit: contain;
 }
 
 .technology__name {
     margin-bottom: 0rem;
+}
+
+.technologies__subheading {
+    margin-top: 2rem;
+}
+
+.technologyTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+.technologyTags li {
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem;
+    background: white;
 }
 /* Contact */
 .contactInfo{
