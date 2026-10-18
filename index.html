@@ -22,8 +22,7 @@
 		<header>
 			<span class="image avatar"><img src="images/avatar.jpg" alt="Jayson's profile picture" /></span>
 			<h1 id="logo"><a href="#">Jayson Rice</a></h1>
-			<p>I'm a remote full-stack developer in Johnson City, TN who loves creating art, hiking, and going to
-				tournaments.
+			<p>Remote full-stack developer in Johnson City, TN, building with C#/.NET, React, and Twilio.
 			</p>
 		</header>
 		<nav id="nav">
@@ -62,23 +61,24 @@
 					<header class="major">
 						<h2>Hi, I'm Jayson Rice</h2>
 						<p>Full-stack software developer,<br>
-							lover of technology and the outdoors
+							five years building production healthcare software remotely
 						</p>
 					</header>
-					<p>After graduating from Middle Tennessee State University in 2017 with a B.S. in Digital Media, I
-						started my professional career at a digital marketing agency. After growing tired of marketing
-						for the next year, I determined that software development was the right direction for me to move
-						in.
+					<p>I'm a developer at WellSky (formerly Sleep Solutions and Services), where I've worked remotely
+						since 2021. We help patients reorder CPAP supplies, and I work on both the C# backend and the
+						React front end. A lot of my time goes into our Twilio phone systems, including an IVR that takes
+						tens of thousands of patient calls a day. I also built Outreach Manager, a separate app that lets
+						our partners set up calling campaigns without needing a developer.
 					</p>
-					<p>I think being thoroughly familiar with digital media helps my skills as a developer. I respect
-						good design and have a better understanding of what a user wants to see on their screen. I
-						already loved solving problems in the digital space with creative solutions, and now I still
-						can. I started my transition to software development at Nashville Software School in 2020 and
-						haven't looked back since.</p>
+					<p>These days I build with Claude Code. I still work through problems the same way: figure out
+						what's going on, plan the change, build it, then test it. The AI just helps me move faster. My
+						latest project, Native Plant Swap, shows you which plants are native where you live, and it's a
+						good example of that workflow.</p>
 
-					<p>Since then I've spent five years as a remote developer at Sleep Solutions and Services (now part
-						of WellSky), building C# and React features for a call center platform, including a Twilio IVR
-						that handles about 64,000 patient calls a day.</p>
+					<p>Before software, I earned a B.S. in Digital Media from Middle Tennessee State University and
+						worked in digital marketing, then switched careers through Nashville Software School in 2020.
+						That background still shapes how I build: I care about what the user actually sees on screen.
+						Outside of work I like hiking, cross-stitching, and Smash Bros tournaments.</p>
 
 					<p>You can download my resume
 						<a href="images/Jayson Rice Resume Software Developer.pdf" target="_blank">here</a>
@@ -101,10 +101,8 @@
 							<div class="inner">
 								<h4>Native Plant Swap - C#, .NET 10, PostgreSQL, React, TypeScript</h4>
 								<ul>
-									<li>Pick your county on a map to see your ecoregion, the native plants recorded
-										near you, and the wildlife they support</li>
-									<li>ASP.NET Core minimal APIs and EF Core on PostgreSQL, with a React + TypeScript
-										front end, deployed on Railway</li>
+									<li>Pick your county on a map and see which native plants grow near you</li>
+									<li>A .NET API and PostgreSQL database with a React front end, live on Railway</li>
 								</ul>
 
 								<button type="button" data-toggle="modal" data-target="#plantSwapModal"
@@ -131,27 +129,22 @@
 														Deployed App</a>
 												</div>
 												<div>
-													<p>Native plants feed local wildlife, but it's hard to know
-														which ones actually belong where you live. Native Plant Swap
-														starts there: pick your county and see your ecoregion (the
-														landscape you really garden in, like the Blue Ridge), which
-														native plants are recorded around you, how close each one
-														grows, and how many caterpillar species depend on it. The
-														next phase turns it into a community where gardeners trade,
+													<p>Native plants are great for local wildlife, but it's hard to
+														know which ones actually belong where you live. Pick your county
+														and the app shows your ecoregion, the native plants recorded
+														near you, and how many caterpillar species each one feeds.
+														<br><br>
+														Next I want to turn it into a place where gardeners can trade,
 														give away, or sell their extra plants and seed.
 													</p>
 													<ul>
-														<li>ASP.NET Core minimal APIs (.NET 10) and EF Core on
-															PostgreSQL, React + TypeScript front end with TanStack
-															Query</li>
-														<li>Interactive SVG maps built with d3-geo and d3-zoom, colored
-															by EPA ecoregion</li>
-														<li>.NET importer that turns public USDA, EPA, and Census data
-															into seed files, including a county-by-ecoregion overlay
-															computed with NetTopologySuite, bulk-loaded with Postgres
-															COPY</li>
-														<li>Built with an agentic workflow using Claude Code:
-															investigate, plan, implement, validate</li>
+														<li>C# API with Entity Framework and PostgreSQL, and a React
+															front end written in TypeScript</li>
+														<li>Clickable maps drawn with d3 and colored by ecoregion</li>
+														<li>An importer that turns public USDA, EPA, and Census data into
+															the app's database, including working out which ecoregions
+															each county falls in</li>
+														<li>Built with Claude Code</li>
 													</ul>
 												</div>
 												<div class="modal-footer">
