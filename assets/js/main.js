@@ -1,5 +1,3 @@
-import TechnologyList from "./technologies/TechnologyList.js";
-
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
